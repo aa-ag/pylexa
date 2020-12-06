@@ -1,4 +1,7 @@
 import speech_recognition
+'''
+Documentation: https://pypi.org/project/SpeechRecognition/
+'''
 
 file = "test.wav" # I believe you're just talking nonsense
 
@@ -14,3 +17,6 @@ with speech_recognition.AudioFile(file) as src:
     txt_version = r.recognize_google(audio_data)
     print(txt_version)
 
+# TO DO: 
+# - large audio files
+# - reading from microphone
