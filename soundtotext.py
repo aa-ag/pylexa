@@ -3,7 +3,7 @@ import speech_recognition
 Documentation: https://pypi.org/project/SpeechRecognition/
 '''
 
-file = "test.wav" # I believe you're just talking nonsense
+file = "test.wav" # "I believe you're just talking nonsense"
 
 # initialize recognizer
 r = speech_recognition.Recognizer()
